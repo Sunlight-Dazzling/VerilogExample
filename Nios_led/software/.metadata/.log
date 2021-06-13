@@ -1,0 +1,86 @@
+!SESSION 2021-04-21 13:14:51.705 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-21 13:15:55.543
+!MESSAGE Indexed 'flow_led_bsp' (79 sources, 57 headers) in 0.56 sec: 937 declarations; 2,256 references; 113 unresolved inclusions; 5 syntax errors; 194 unresolved names (5.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-21 13:16:00.821
+!MESSAGE Indexed 'flow_led' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:41:08.886
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:41:11.744
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:43:09.152
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:43:09.882
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:43:12.710
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:43:52.088
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:43:53.275
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:43:56.054
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:47:06.976
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:47:07.668
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:47:10.391
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:51:16.876
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:51:17.732
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:51:20.466
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:52:11.610
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:52:12.273
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:52:15.001
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:52:51.824
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:52:52.479
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:52:55.183
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]
+!SESSION 2021-04-21 16:06:23.632 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 16:10:32.485
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9010 --id=0x0 --timestamp=1618983068]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 16:10:37.025
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9010 --id=0x0 --timestamp=1618983068 /cygdrive/h/Verilog/Nios_led/qsys/software/flow_led/flow_led.elf]

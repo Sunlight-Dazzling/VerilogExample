@@ -1,0 +1,75 @@
+!SESSION 2021-04-21 10:29:17.599 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-21 10:35:30.428
+!MESSAGE Indexed 'hello_world_bsp' (79 sources, 57 headers) in 0.65 sec: 937 declarations; 2,256 references; 113 unresolved inclusions; 5 syntax errors; 194 unresolved names (5.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-04-21 10:35:35.854
+!MESSAGE Indexed 'hello_world' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2021-04-21 13:54:50.118 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:55:59.603
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9000 --id=0x0 --timestamp=1618970290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:56:02.539
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9000 --id=0x0 --timestamp=1618970290 /cygdrive/h/Verilog/qsys_hello_world/qsys/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:56:52.219
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:56:52.880
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9000 --id=0x0 --timestamp=1618970290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:56:55.536
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9000 --id=0x0 --timestamp=1618970290 /cygdrive/h/Verilog/qsys_hello_world/qsys/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:57:53.588
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:57:54.276
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9000 --id=0x0 --timestamp=1618970290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:57:56.972
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9000 --id=0x0 --timestamp=1618970290 /cygdrive/h/Verilog/qsys_hello_world/qsys/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:58:22.290
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:58:22.969
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9000 --id=0x0 --timestamp=1618970290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 13:58:27.291
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9000 --id=0x0 --timestamp=1618970290 /cygdrive/h/Verilog/qsys_hello_world/qsys/software/hello_world/hello_world.elf]
+!SESSION 2021-04-21 16:16:15.314 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 16:20:36.160
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9000 --id=0x0 --timestamp=1618970290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 16:20:38.765
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9000 --id=0x0 --timestamp=1618970290 /cygdrive/h/Verilog/qsys_hello_world/qsys/software/hello_world/hello_world.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 16:21:07.894
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 16:21:09.405
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9000 --id=0x0 --timestamp=1618970290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-04-21 16:21:12.135
+!MESSAGE Executing: [H:/quartusii_13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9000 --id=0x0 --timestamp=1618970290 /cygdrive/h/Verilog/qsys_hello_world/qsys/software/hello_world/hello_world.elf]

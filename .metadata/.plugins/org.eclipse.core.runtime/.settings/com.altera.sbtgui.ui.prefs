@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=H\:\\Verilog\\hello_world\\software\\hello_world
+newSoftwareExampleWizardPage.sopcinfoFile=H\:\\Verilog\\hello_world\\kernel.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=H\:\\Verilog\\hello_world\\software\\hello_world_bsp

@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Verilog/dwave2/simulation/modelsim
+T_opt
+Z1 !s110 1617019634
+V^I0>z_^l<OA_]XOG<8>[W3
+04 8 4 work dwave_tb fast 0
+=1-04d3b0f65ce8-6061c2f2-214-3558
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vdwave
+!s110 1617019633
+!i10b 1
+!s100 5>K]kKV3BXbXjOL:z1a[]0
+I2?5S9Fk;<h:O>AgT?9[zC3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1617018112
+8H:/Verilog/dwave2/dwave.v
+FH:/Verilog/dwave2/dwave.v
+L0 2
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1617019633.933000
+!s107 H:/Verilog/dwave2/dwave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Verilog/dwave2|H:/Verilog/dwave2/dwave.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+H:/Verilog/dwave2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vdwave_tb
+R1
+!i10b 1
+!s100 b^62RS<MAgID:Q^RXj0B^1
+IWdW2m3SCl`m4HXlz3c6<U2
+R2
+R0
+w1617019235
+8H:/Verilog/dwave2/simulation/dwave_tb.v
+FH:/Verilog/dwave2/simulation/dwave_tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1617019634.063000
+!s107 H:/Verilog/dwave2/simulation/dwave_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Verilog/dwave2/simulation|H:/Verilog/dwave2/simulation/dwave_tb.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+H:/Verilog/dwave2/simulation -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

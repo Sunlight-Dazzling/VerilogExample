@@ -1,0 +1,41 @@
+
+module d_flip_flop(d,clk,q);
+    input d;
+    input clk;
+    output q;
+
+    reg q;
+
+    always @ (posedge clk)//我们用正的时钟沿做它的敏感信号
+    begin
+        q <= d;//上升沿有效的时候，把d捕获到q
+    end
+
+
+endmodule
+
+`timescale 1ns / 1ns
+
+module d_flip_flop_tb;
+    reg clk,d;
+    wire q;
+
+    d_flip_flop u1(.d(d),.clk(clk),.q(q));
+
+    initial
+    begin
+        clk = 1;
+        d <= 0;
+        forever
+        begin
+            #60 d <= 1;//人为生成毛刺 
+            #22 d <= 0;
+            #2  d <= 1;
+            #2  d <= 0;
+            #16 d <= 0;//维持16ns的低电平，然后让它做周期性的循环
+        end
+    end
+
+    always #20 clk <= ~clk;//半周期为20ns,全周期为40ns的一个信号
+endmodule
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="led.cpp" path="E:\Verilog\HLS_led\led.cpp"/>
+    <originFiles name="led.h" path="E:\Verilog\HLS_led\led.h"/>
+  </source>
+  <testbench>
+    <originFiles name="test_led.cpp" path="E:\Verilog\HLS_led\test_led.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

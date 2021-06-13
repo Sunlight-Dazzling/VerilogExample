@@ -1,0 +1,14 @@
+|full_adder
+ain => sum.IN0
+ain => s1.IN0
+ain => s3.IN0
+bin => sum.IN1
+bin => s2.IN0
+bin => s3.IN1
+cin => sum.IN1
+cin => s1.IN1
+cin => s2.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+

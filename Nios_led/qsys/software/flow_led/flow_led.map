@@ -1,0 +1,700 @@
+Archive member included because of file (symbol)
+
+../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+                              ../flow_led_bsp//obj/HAL/src/crt0.o (alt_load)
+../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+                              ../flow_led_bsp//obj/HAL/src/crt0.o (alt_main)
+../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_main.o) (close)
+../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_main.o) (_exit)
+../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_close.o) (errno)
+h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                              ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00004000         0x00000020
+ram              0x00004020         0x000027e0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../flow_led_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libstdc++.a
+LOAD h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libm.a
+LOAD h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+START GROUP
+LOAD h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a
+LOAD h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+LOAD ../flow_led_bsp/\libhal_bsp.a
+END GROUP
+LOAD h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+                0x00004000                __alt_mem_ram = 0x4000
+
+.entry          0x00004000       0x20
+ *(.entry)
+ .entry         0x00004000       0x20 ../flow_led_bsp//obj/HAL/src/crt0.o
+                0x00004000                __reset
+
+.exceptions     0x00004020        0x0
+                0x00004020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00004020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x00004020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00004020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00004020      0xf64
+                0x00004020                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00004020       0x4c ../flow_led_bsp//obj/HAL/src/crt0.o
+                0x00004020                _start
+ .text          0x0000406c       0x78 obj/default/hello_world.o
+                0x0000406c                main
+ .text          0x000040e4       0xec ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+                0x00004150                alt_load
+ .text          0x000041d0       0x68 ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+                0x000041d0                alt_main
+ .text          0x00004238       0xa0 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00004270                alt_irq_init
+                0x000042a4                alt_sys_init
+ .text          0x000042d8       0xc0 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x000042d8                altera_avalon_jtag_uart_read_fd
+                0x00004338                altera_avalon_jtag_uart_write_fd
+ .text          0x00004398       0xf4 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00004398                altera_avalon_jtag_uart_read
+ .text          0x0000448c       0x98 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000448c                altera_avalon_jtag_uart_write
+ .text          0x00004524      0x118 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+                0x00004574                close
+ .text          0x0000463c       0x44 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000463c                alt_dcache_flush_all
+ .text          0x00004680       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000046ac       0xf0 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000046fc                alt_dev_llist_insert
+ .text          0x0000479c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000479c       0x3c ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000479c                _exit
+ .text          0x000047d8       0x30 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x000047d8                alt_icache_flush_all
+ .text          0x00004808      0x138 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x000048c8                alt_io_redirect
+ .text          0x00004940      0x270 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+                0x00004a5c                open
+ .text          0x00004bb0       0x60 ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00004bb0                alt_release_fd
+ .text          0x00004c10       0x20 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00004c10                altera_nios2_qsys_irq_init
+ .text          0x00004c30       0x90 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00004c30                alt_find_dev
+ .text          0x00004cc0      0x114 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00004cc0                alt_find_file
+ .text          0x00004dd4       0xb4 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x00004dd4                alt_get_fd
+ .text          0x00004e88       0x8c ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x00004e88                alt_icache_flush
+ .text          0x00004f14        0x0 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .text          0x00004f14       0x48 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+                0x00004f14                memcmp
+ .text          0x00004f5c       0x28 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                0x00004f5c                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                0x00004f84                PROVIDE (__etext, ABSOLUTE (.))
+                0x00004f84                PROVIDE (_etext, ABSOLUTE (.))
+                0x00004f84                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00004f84                . = ALIGN (0x4)
+                0x00004f84                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x00004f84                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x00004f84                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x00004f84                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x00004f84                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x00004f84                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00004f84                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x00004f84                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00004f84                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00004f84                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00004f84                . = ALIGN (0x4)
+
+.rodata         0x00004f84       0x34
+                0x00004f84                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00004f84                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00004f84       0x14 ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata        0x00004f98       0x14 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x00004fac        0xc ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x00004fb8                . = ALIGN (0x4)
+                0x00004fb8                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00004f84                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00004fb8      0x1f0 load address 0x000051a8
+                0x00004fb8                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00004fb8                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00004fb8        0x0 ../flow_led_bsp//obj/HAL/src/crt0.o
+ .data          0x00004fb8        0x0 obj/default/hello_world.o
+ .data          0x00004fb8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00004fb8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00004fb8       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00004fe4        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x00004fe4        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00004fe4        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00004fe4        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00004fe4        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00004fe4      0x1a8 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00004fe4                alt_dev_null
+                0x0000500c                alt_fd_list
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x0000518c        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000518c        0x0 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000518c        0x0 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .data          0x0000518c        0x0 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                0x0000d18c                _gp = ABSOLUTE ((. + 0x8000))
+                0x0000d18c                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000518c        0x4 obj/default/hello_world.o
+                0x0000518c                led_data
+ .sdata         0x00005190       0x14 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00005190                alt_fs_list
+                0x00005198                alt_dev_list
+                0x000051a0                alt_max_fd
+ .sdata         0x000051a4        0x4 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+                0x000051a4                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x000051a8                . = ALIGN (0x4)
+                0x000051a8                _edata = ABSOLUTE (.)
+                0x000051a8                PROVIDE (edata, ABSOLUTE (.))
+                0x000051a8                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x000051a8                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00005398       0x10
+                0x00005398                __bss_start = ABSOLUTE (.)
+                0x00005398                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00005398                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00005398        0xc ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+                0x00005398                alt_argc
+                0x0000539c                alt_argv
+                0x000053a0                alt_envp
+ .sbss          0x000053a4        0x4 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                0x000053a4                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x000053a8                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x000053a8                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000053a8        0x0 ../flow_led_bsp//obj/HAL/src/crt0.o
+ .bss           0x000053a8        0x0 obj/default/hello_world.o
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x000053a8        0x0 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x000053a8        0x0 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x000053a8        0x0 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .bss           0x000053a8        0x0 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ *(COMMON)
+                0x000053a8                . = ALIGN (0x4)
+                0x000053a8                __bss_end = ABSOLUTE (.)
+
+.ram            0x000053a8        0x0
+                0x000053a8                PROVIDE (_alt_partition_ram_start, ABSOLUTE (.))
+ *(.ram .ram. ram.*)
+                0x000053a8                . = ALIGN (0x4)
+                0x000053a8                PROVIDE (_alt_partition_ram_end, ABSOLUTE (.))
+                0x000053a8                _end = ABSOLUTE (.)
+                0x000053a8                end = ABSOLUTE (.)
+                0x000053a8                __alt_stack_base = ABSOLUTE (.)
+                0x000053a8                PROVIDE (_alt_partition_ram_load_addr, LOADADDR (.ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/hello_world.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x00000000       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x00000000       0x24 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x338
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../flow_led_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x00000048       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000068       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000088       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x000000a8       0x20 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x000000c8       0x20 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x000000e8       0x20 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000108       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000128       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000148       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000168       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000188       0x18 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x000001a0       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_aranges
+                0x000001c0       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x000001e0       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x00000200       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000220       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000240       0x20 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000260       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000280       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x000002a0       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x000002c0       0x20 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x000002e0       0x18 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x000002f8       0x20 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000318       0x20 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3466
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x63 ../flow_led_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x00000063       0xf8 obj/default/hello_world.o
+ .debug_info    0x0000015b      0x135 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000290      0x139 ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x000003c9      0x406 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x000007cf      0x3da ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00000ba9      0x1bc ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x00000d65      0x19f ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00000f04      0x350 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00001254       0xa3 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000012f7      0x4e3 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000017da      0x1b9 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00001993       0xa3 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00001a36       0xec ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_info    0x00001b22       0x90 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00001bb2      0x4f0 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x000020a2      0x3f0 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x00002492      0x2dd ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000276f       0x90 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x000027ff      0x30d ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00002b0c      0x30c ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x00002e18      0x339 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00003151       0xda ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000322b       0x84 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x000032af       0xf1 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x000033a0       0xc6 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x00000000     0x12d3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../flow_led_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0xa2 obj/default/hello_world.o
+ .debug_abbrev  0x000000b4       0x9d ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000151       0xba ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000020b      0x155 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000360       0xf7 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x00000457       0xd5 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000052c       0xd5 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00000601      0x11f ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000720       0x5a ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000077a       0xd9 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000853      0x114 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000967       0x5a ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x000009c1       0xa6 ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_abbrev  0x00000a67       0x42 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000aa9      0x114 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x00000bbd      0x148 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00000d05       0xde ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00000de3       0x42 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00000e25       0xf0 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000f15       0xf0 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00001005      0x10d ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00001112       0x8c ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000119e       0x37 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x000011d5       0x7f h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00001254       0x7f h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+
+.debug_line     0x00000000     0x14d6
+ *(.debug_line)
+ .debug_line    0x00000000       0x72 ../flow_led_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000072       0x73 obj/default/hello_world.o
+ .debug_line    0x000000e5       0x92 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000177       0x9e ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00000215      0x127 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000033c      0x114 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000450      0x101 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000551       0xf8 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00000649      0x189 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x000007d2       0x61 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000833      0x11c ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000094f       0xd0 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00000a1f       0x51 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00000a70       0x71 ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_line    0x00000ae1       0x50 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000b31      0x157 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000c88      0x125 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x00000dad       0xae ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x00000e5b       0x51 ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x00000eac       0xb9 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000f65       0xd5 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000103a       0xd1 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000110b       0x81 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000118c       0x5d h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x000011e9      0x17c h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_line    0x00001365      0x171 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+
+.debug_frame    0x00000000      0x4d8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c obj/default/hello_world.o
+ .debug_frame   0x0000002c       0x48 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000074       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000000a0       0x64 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000104       0x48 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000014c       0x2c ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000178       0x2c ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x000001a4       0x48 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x000001ec       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000218       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000244       0x48 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000028c       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_frame   0x000002b8       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000002e4       0x48 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000032c       0x64 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000390       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x000003bc       0x2c ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x000003e8       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000414       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000440       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000046c       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x00000498       0x20 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_frame   0x000004b8       0x20 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+
+.debug_str      0x00000000      0xa8b
+ *(.debug_str)
+ .debug_str     0x00000000       0xb4 obj/default/hello_world.o
+                                 0xf2 (size before relaxing)
+ .debug_str     0x000000b4      0x120 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+                                0x1be (size before relaxing)
+ .debug_str     0x000001d4       0x7c ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+                                0x149 (size before relaxing)
+ .debug_str     0x00000250      0x157 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                0x280 (size before relaxing)
+ .debug_str     0x000003a7       0x77 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                0x281 (size before relaxing)
+ .debug_str     0x0000041e       0x48 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                0x1cb (size before relaxing)
+ .debug_str     0x00000466       0x4a ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                0x1c1 (size before relaxing)
+ .debug_str     0x000004b0       0x44 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+                                0x1b7 (size before relaxing)
+ .debug_str     0x000004f4       0x34 ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x101 (size before relaxing)
+ .debug_str     0x00000528      0x120 ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+                                0x2b1 (size before relaxing)
+ .debug_str     0x00000648       0x4b ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                0x178 (size before relaxing)
+ .debug_str     0x00000693       0x14 ../flow_led_bsp/\libhal_bsp.a(alt_errno.o)
+                                 0xf1 (size before relaxing)
+ .debug_str     0x000006a7       0x2a ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+                                 0xfd (size before relaxing)
+ .debug_str     0x000006d1       0x34 ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                0x101 (size before relaxing)
+ .debug_str     0x00000705       0x56 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                0x2c2 (size before relaxing)
+ .debug_str     0x0000075b       0x36 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+                                0x1f7 (size before relaxing)
+ .debug_str     0x00000791       0x28 ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                0x18b (size before relaxing)
+ .debug_str     0x000007b9       0x3b ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                0x108 (size before relaxing)
+ .debug_str     0x000007f4       0x24 ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                0x198 (size before relaxing)
+ .debug_str     0x00000818       0x26 ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+                                0x1a6 (size before relaxing)
+ .debug_str     0x0000083e       0x30 ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x0000086e       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                0x107 (size before relaxing)
+ .debug_str     0x0000089a       0xd1 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x0000096b       0xde h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+                                0x17c (size before relaxing)
+ .debug_str     0x00000a49       0x42 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                                0x182 (size before relaxing)
+
+.debug_loc      0x00000000      0x5c0
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x2c obj/default/hello_world.o
+ .debug_loc     0x0000002c       0x58 ../flow_led_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x00000084       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x000000b0       0x84 ../flow_led_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000134       0x58 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_loc     0x0000018c       0x2c ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x000001b8       0x2c ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x000001e4       0x58 ../flow_led_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_loc     0x0000023c       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000268       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x00000294       0x58 ../flow_led_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x000002ec       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_exit.o)
+ .debug_loc     0x00000318       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x00000344       0x58 ../flow_led_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_loc     0x0000039c       0x84 ../flow_led_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_loc     0x00000420       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x0000044c       0x2c ../flow_led_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x00000478       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x000004a4       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_loc     0x000004d0       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_loc     0x000004fc       0x2c ../flow_led_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x00000528       0x6f h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000597       0x29 h:/quartusii_13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x30 ../flow_led_bsp//obj/HAL/src/crt0.o
+                0x00006800                __alt_data_end = 0x6800
+                0x00006800                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x000053a8                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x000053a8                PROVIDE (__alt_heap_start, end)
+                0x00006800                PROVIDE (__alt_heap_limit, 0x6800)
+OUTPUT(flow_led.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0x38
+ .debug_ranges  0x00000000       0x20 ../flow_led_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x18 ../flow_led_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)

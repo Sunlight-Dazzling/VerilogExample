@@ -1,0 +1,155 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Full Version"
+
+// DATE "03/29/2021 18:59:34"
+
+// 
+// Device: Altera EP4CE115F23C7 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module dwave (
+	Q,
+	D,
+	CLK,
+	Q_n);
+output 	Q;
+input 	D;
+input 	CLK;
+output 	Q_n;
+
+// Design Ports Information
+// Q	=>  Location: PIN_V13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Q_n	=>  Location: PIN_V14,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// CLK	=>  Location: PIN_W14,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// D	=>  Location: PIN_V15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("dwave_min_1200mv_0c_v_fast.sdo");
+// synopsys translate_on
+
+wire \Q~output_o ;
+wire \Q_n~output_o ;
+wire \D~input_o ;
+wire \CLK~input_o ;
+wire \inst2~1_combout ;
+wire \inst4~combout ;
+
+
+// Location: IOOBUF_X79_Y0_N23
+cycloneive_io_obuf \Q~output (
+	.i(!\inst2~1_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q~output .bus_hold = "false";
+defparam \Q~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X81_Y0_N23
+cycloneive_io_obuf \Q_n~output (
+	.i(\inst4~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q_n~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q_n~output .bus_hold = "false";
+defparam \Q_n~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X83_Y0_N15
+cycloneive_io_ibuf \D~input (
+	.i(D),
+	.ibar(gnd),
+	.o(\D~input_o ));
+// synopsys translate_off
+defparam \D~input .bus_hold = "false";
+defparam \D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X79_Y0_N15
+cycloneive_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X80_Y1_N18
+cycloneive_lcell_comb \inst2~1 (
+// Equation(s):
+// \inst2~1_combout  = (\CLK~input_o  & ((!\D~input_o ))) # (!\CLK~input_o  & (\inst2~1_combout ))
+
+	.dataa(gnd),
+	.datab(\inst2~1_combout ),
+	.datac(\D~input_o ),
+	.datad(\CLK~input_o ),
+	.cin(gnd),
+	.combout(\inst2~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst2~1 .lut_mask = 16'h0FCC;
+defparam \inst2~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X80_Y1_N24
+cycloneive_lcell_comb inst4(
+// Equation(s):
+// \inst4~combout  = (\inst2~1_combout ) # ((\CLK~input_o  & !\D~input_o ))
+
+	.dataa(gnd),
+	.datab(\CLK~input_o ),
+	.datac(\D~input_o ),
+	.datad(\inst2~1_combout ),
+	.cin(gnd),
+	.combout(\inst4~combout ),
+	.cout());
+// synopsys translate_off
+defparam inst4.lut_mask = 16'hFF0C;
+defparam inst4.sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign Q = \Q~output_o ;
+
+assign Q_n = \Q_n~output_o ;
+
+endmodule

@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, H:/Verilog/dwave/prj/dwave.bdf
+source_file = 1, H:/Verilog/dwave/prj/Waveform.vwf
+source_file = 1, H:/Verilog/dwave/prj/db/dwave.cbx.xml
+design_name = dwave
+instance = comp, \Q~output , Q~output, dwave, 1
+instance = comp, \Q_n~output , Q_n~output, dwave, 1
+instance = comp, \D~input , D~input, dwave, 1
+instance = comp, \CLK~input , CLK~input, dwave, 1
+instance = comp, \inst2~1 , inst2~1, dwave, 1

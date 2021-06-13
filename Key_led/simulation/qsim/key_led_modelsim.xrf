@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, H:/Verilog/Key_led/key_led.bdf
+source_file = 1, H:/Verilog/Key_led/Waveform.vwf
+source_file = 1, H:/Verilog/Key_led/db/key_led.cbx.xml
+design_name = key_led
+instance = comp, \led_output~output , led_output~output, key_led, 1
+instance = comp, \sw_input~input , sw_input~input, key_led, 1
+instance = comp, \key_input~input , key_input~input, key_led, 1

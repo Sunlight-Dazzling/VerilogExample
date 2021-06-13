@@ -1,0 +1,36 @@
+|seg_led_static
+clk => seg_led[0]~reg0.CLK
+clk => seg_led[1]~reg0.CLK
+clk => seg_led[2]~reg0.CLK
+clk => seg_led[3]~reg0.CLK
+clk => seg_led[4]~reg0.CLK
+clk => seg_led[5]~reg0.CLK
+clk => seg_led[6]~reg0.CLK
+clk => num[0].CLK
+clk => num[1].CLK
+clk => num[2].CLK
+clk => num[3].CLK
+rst_n => seg_led[0]~reg0.ACLR
+rst_n => seg_led[1]~reg0.ACLR
+rst_n => seg_led[2]~reg0.ACLR
+rst_n => seg_led[3]~reg0.ACLR
+rst_n => seg_led[4]~reg0.ACLR
+rst_n => seg_led[5]~reg0.ACLR
+rst_n => seg_led[6]~reg0.ACLR
+rst_n => num[0].ACLR
+rst_n => num[1].ACLR
+rst_n => num[2].ACLR
+rst_n => num[3].ACLR
+add_flag => num[3].ENA
+add_flag => num[2].ENA
+add_flag => num[1].ENA
+add_flag => num[0].ENA
+seg_led[0] <= seg_led[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg_led[1] <= seg_led[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg_led[2] <= seg_led[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg_led[3] <= seg_led[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg_led[4] <= seg_led[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg_led[5] <= seg_led[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg_led[6] <= seg_led[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

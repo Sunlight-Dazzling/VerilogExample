@@ -1,0 +1,8 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="9" filename="HLS_led/led.cpp" linenumber="9" name="r_V" contextFuncName="flash_led" moduleName="flash_led" rtlName="r_V_fu_62_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="2" fileDirectory="E:\Verilog"><\/item>
+<item  id="13" filename="HLS_led/led.cpp" linenumber="7" name="exitcond" contextFuncName="flash_led" moduleName="flash_led" rtlName="exitcond_fu_68_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="E:\Verilog"><\/item>
+<item  id="15" filename="HLS_led/led.cpp" linenumber="7" name="i_V" contextFuncName="flash_led" moduleName="flash_led" rtlName="i_V_fu_74_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="34" fileDirectory="E:\Verilog"><\/item>
+<item  id="18" filename="HLS_led/led.cpp" linenumber="8" name="tmp" contextFuncName="flash_led" moduleName="flash_led" rtlName="tmp_fu_80_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="18" fileDirectory="E:\Verilog"><\/item>
+<\/annotationInfo>
+</annotationInfo>

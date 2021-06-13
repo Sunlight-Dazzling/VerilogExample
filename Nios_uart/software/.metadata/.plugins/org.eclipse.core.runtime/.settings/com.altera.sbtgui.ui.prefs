@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=H\:\\Verilog\\Nios_uart\\qsys\\software\\uart
+newSoftwareExampleWizardPage.sopcinfoFile=H\:\\Verilog\\Nios_uart\\qsys\\system_qsys.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=H\:\\Verilog\\Nios_uart\\qsys\\software\\uart_bsp

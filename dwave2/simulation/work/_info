@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Verilog/dwave2/simulation
+T_opt
+!s110 1617019181
+VgnN<EdOY2E=JI=?MbHbbl3
+04 5 4 work dwave fast 0
+=1-04d3b0f65ce8-6061c12b-324-28fc
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+R0
+vdwave
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 5>K]kKV3BXbXjOL:z1a[]0
+I;HMWT0N<TzH0R;]3]O=G82
+R0
+w1617018112
+8H:/Verilog/dwave2/dwave.v
+FH:/Verilog/dwave2/dwave.v
+L0 2
+Z2 OL;L;10.4;61
+!s108 1617019343.824000
+!s107 H:/Verilog/dwave2/dwave.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Verilog/dwave2/dwave.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vdwave_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 b^62RS<MAgID:Q^RXj0B^1
+I10ANI?k]z3YDojRPAK_MS0
+R0
+w1617019235
+8H:/Verilog/dwave2/simulation/dwave_tb.v
+FH:/Verilog/dwave2/simulation/dwave_tb.v
+L0 4
+R2
+!s108 1617019343.919000
+!s107 H:/Verilog/dwave2/simulation/dwave_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|H:/Verilog/dwave2/simulation/dwave_tb.v|
+!i113 0
+R3

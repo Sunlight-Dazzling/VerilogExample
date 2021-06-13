@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Verilog/adder2/simulation/qsim
+vfull_adder
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 O<Rzm?lWZKQmbd92fY;S_3
+IK81dAD@LS?8LbK:=@MP@31
+R0
+w1617775982
+8full_adder.vo
+Ffull_adder.vo
+L0 31
+Z2 OL;L;10.4;61
+!s108 1617775984.291000
+!s107 full_adder.vo|
+!s90 -work|work|full_adder.vo|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfull_adder_vlg_check_tst
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 F<ki2>5`n3ce4a`mRnk=g1
+Io:V_3LiN`BO__g6Q<oCPI3
+R0
+Z4 w1617775981
+Z5 8full_adder.vwf.vt
+Z6 Ffull_adder.vwf.vt
+L0 61
+R2
+Z7 !s108 1617775984.396000
+Z8 !s107 full_adder.vwf.vt|
+Z9 !s90 -work|work|full_adder.vwf.vt|
+!i113 0
+R3
+vfull_adder_vlg_sample_tst
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 GSRJombeZ_zD48Pd4I]9k2
+IU?F0PD1FNSd;zdiEb:?4h2
+R0
+R4
+R5
+R6
+L0 29
+R2
+R7
+R8
+R9
+!i113 0
+R3
+vfull_adder_vlg_vec_tst
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 EmFD`3zj;IOBNQiNH8]Y01
+Iz6UDk<Cmd?]5DT9n4S3<Y0
+R0
+R4
+R5
+R6
+L0 183
+R2
+R7
+R8
+R9
+!i113 0
+R3

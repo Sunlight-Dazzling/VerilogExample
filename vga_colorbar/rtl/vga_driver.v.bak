@@ -1,0 +1,109 @@
+`include "param.v"
+module vga_driver( 
+    input				clk_65m         ,
+    input				rst_n	        ,
+
+    //colorbar
+    input		[15:0]	rgb_din		    ,
+    output      reg     rd_req          ,
+   
+
+    //VGA
+    output	reg	[15:0]	vga_rgb_dout	,
+    output	reg	    	h_sync          ,
+    output	reg	    	v_sync          
+
+);								   
+    //中间信号定义		 
+    reg		[10:0]	vga_h_cnt           ;  //行扫描周期
+    wire            add_vga_h_cnt       ;
+    wire            end_vga_h_cnt       ;
+
+    reg		[9:0]	vga_v_cnt           ;  //场扫描周期
+    wire            add_vga_v_cnt       ;
+    wire            end_vga_v_cnt       ;   
+
+    always @(posedge clk or negedge rst_n)begin 
+        if(!rst_n)begin
+            vga_h_cnt <= 0;
+        end 
+        else if(add_vga_h_cnt)begin 
+            if(end_vga_h_cnt)begin 
+                vga_h_cnt <= 0;
+            end
+            else begin 
+                vga_h_cnt <= vga_h_cnt + 1;
+            end 
+        end
+    end 
+    assign add_vga_h_cnt = 1'b1;
+    assign end_vga_h_cnt = add_vga_h_cnt && vga_h_cnt == `H_TOTAL-1;
+
+    always @(posedge clk or negedge rst_n)begin 
+        if(!rst_n)begin
+            vga_v_cnt <= 0;
+        end 
+        else if(add_vga_v_cnt)begin 
+            if(end_vga_v_cnt)begin 
+                vga_v_cnt <= 0;
+            end
+            else begin 
+                vga_v_cnt <= vga_v_cnt + 1;
+            end 
+        end
+    end 
+    assign add_vga_v_cnt = end_vga_h_cnt;
+    assign end_vga_v_cnt = add_vga_v_cnt && vga_v_cnt == `V_TOTAL -1 ;
+
+    assign h_vld = (vga_h_cnt >= (`H_SYNC + `H_BACK)) + (vga_h_cnt <= (`H_TOTAL - `H_FRONT));
+    assign v_vld = (vga_v_cnt >= (`V_SYNC + `V_BACK)) + (vga_h_cnt <= (`V_TOTAL - `V_FRONT));
+
+//rd_req
+    always @(posedge clk or negedge rst_n)begin 
+            if(!rst_n)begin
+                rd_req <= 1'b0;
+            end 
+            else if(h_vld || v_vld)begin 
+                rd_req <= 1'b1
+            end 
+            else begin 
+                rd_req <= 1'b0 
+            end 
+    end
+
+//vga_rgb_dout
+    always @(posedge clk or negedge rst_n)begin 
+            if(!rst_n)begin
+                vga_rgb_dout <= 0;
+            end 
+            else begin 
+                vga_rgb_dout <= rgb_din;
+            end 
+    end
+
+//h_sync
+    always @(posedge clk or negedge rst_n)begin 
+            if(!rst_n)begin
+                h_sync <= 1'b0;
+            end 
+            else if(vga_h_cnt == `H_SYNC-1)begin 
+                h_sync <= 1'b1;
+            end 
+            else begin 
+                h_sync <= 1'b0;
+            end 
+    end
+
+//v_sync
+    always @(posedge clk or negedge rst_n)begin 
+            if(!rst_n)begin
+                v_sync <= 1'b0;
+            end 
+            else if(vga_v_cnt == `V_SYNC-1)begin 
+                v_sync <= 1'b1;
+            end 
+            else begin 
+                v_sync <= 1'b0;
+            end 
+    end
+endmodule

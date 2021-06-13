@@ -1,0 +1,45 @@
+module vga_colorbar(
+    input       clk,
+    input       rst_n,
+
+    output	reg	[15:0]	vga_rgb_dout	,
+    output	reg	    	h_sync          ,
+    output	reg	    	v_sync          
+);
+
+//中间信号定义	
+    wire     [15:0]     vga_rgb_dout;
+    wire                h_sync      ;
+    wire                v_sync      ;
+    wire                clk_50m     ;
+    wire                clk_65m     ;
+    wire                locked_sig  ;
+
+ 
+//模块例化
+    colorbar u_colorbar(
+    .clk_50m	            (clk_50m),
+    .rst_n	                (rst_n),
+    .rd_req                 (rd_req),         
+    .rgb_dout               (rgb_dout)//rgb565格式
+    );
+
+    vga_driver u_vga_driver(
+    .clk_65m                (clk_65m),
+    .rst_n	                (rst_n), 
+    .rgb_din		        (rgb_dout),
+    .rd_req                 (rd_req),  
+    .vga_rgb_dout	        (vga_rgb_dout),
+    .h_sync                 (h_sync),
+    .v_sync                 (v_sync)
+    );
+
+pll	pll_inst (
+	.areset                 ( ~rst_n ),
+	.inclk0                 ( clk ),
+	.c0                     ( clk_50m ),
+	.c1                     ( clk_65m ),
+	.locked                 ( locked_sig )
+	);
+
+endmodule

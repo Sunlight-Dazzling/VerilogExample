@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=H\:\\Verilog\\qsys_hello_world\\qsys\\software\\hello_world
+newSoftwareExampleWizardPage.sopcinfoFile=H\:\\Verilog\\qsys_hello_world\\qsys\\system_qsys.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=H\:\\Verilog\\qsys_hello_world\\qsys\\software\\hello_world_bsp

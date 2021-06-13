@@ -1,0 +1,17 @@
+module full_adder(
+	//输入信号，ain表示被加数，bin表示加数，cin表示低位向高位的进位
+	input ain,bin,cin;
+	//输出信号,cout表示向高位的进位，sum表示本位的相加和
+	output cout,sum
+
+);
+reg s1,s2,s3;
+reg sum,count;
+always @(ain or bin or cin) begin
+	sum=(ain^bin)^cin;
+	s1=ain&cin;
+	s2=bin&cin;
+	s3=ain&bin;
+	cout=(s1|s2)|s3;
+end
+endmodule

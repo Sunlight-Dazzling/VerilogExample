@@ -1,0 +1,93 @@
+$comment
+	File created using the following command:
+		vcd file key_led.msim.vcd -direction
+$end
+$date
+	Wed Mar 31 10:27:31 2021
+$end
+$version
+	ModelSim Version 10.4
+$end
+$timescale
+	1ps
+$end
+
+$scope module key_led_vlg_vec_tst $end
+$var reg 1 ! key_input $end
+$var reg 1 " sw_input $end
+$var wire 1 # led_output $end
+$var wire 1 $ sampler $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + led_output~output_o $end
+$var wire 1 , sw_input~input_o $end
+$var wire 1 - key_input~input_o $end
+$var wire 1 . inst~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+x+
+0,
+0-
+x.
+$end
+#3150
+0.
+#9184
+1+
+1#
+#60000
+1!
+0$
+#60650
+1-
+#130000
+1"
+0!
+1$
+#130700
+1,
+#130756
+0-
+#190000
+1!
+0$
+#190650
+1-
+#193563
+1.
+#199740
+0+
+0#
+#250000
+0"
+0!
+1$
+#250756
+0-
+#250806
+0,
+#253906
+0.
+#259940
+1+
+1#
+#1000000
